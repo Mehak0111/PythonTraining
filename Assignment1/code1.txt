@@ -1,0 +1,4 @@
+def copy_and_sync_files(source_path, destination_path):
+    with open(source_path, 'w') as source_file:
+        source_file.write("Initial content in source file")
+        
